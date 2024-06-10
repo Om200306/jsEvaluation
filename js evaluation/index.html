@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        button{
+            background-color: skyblue;
+            padding: 10px 20px;
+            border: 0px;
+            border-radius: 14px;
+        }
+        #box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+           
+            
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            margin: 10px;
+
+        }
+
+        span{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        img{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <form id="form">
+    <input type="text" placeholder="Search Author name">
+
+    <input type="submit">
+   </form>
+    </div>
+    <br><br>
+    
+
+    <div id="box">
+
+    </div>
+
+    <span id="sp">
+
+   <button id="prev">Prev</button>
+   <p id="page"><b ></b></p>
+   <button id="next">Next</button>
+</span>
+    
+</body>
+</html>
+<script src="./index.js">
+
+</script>
